@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
 }
 
 h1,
@@ -101,6 +102,7 @@ img {
 .introducao-bg {
   background-color: #000000;
   color: #ffffff;
+  box-shadow: inset 0 -20px #ffffff;
 }
 
 .introducao {
@@ -116,8 +118,13 @@ img {
 }
 
 .introducao-conteudo {
-  align-self: end;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover; /* serve para redimensionar o objeto em referencia ao pai e sendo cover, a img será redimensionada para que não deixe nenhum espaço vazio no contêiner e ocasionalmente, ela será cortada para caber no caso da proporção da imagem original não corresponder à proporção da caixa de conteúdo.*/
+  border-radius: 4px;
 }
 
 .introducao h1 {
