@@ -15,6 +15,7 @@
 }
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover; /* serve para redimensionar o objeto em referencia ao pai e sendo cover, a img será redimensionada para que não deixe nenhum espaço vazio no contêiner e ocasionalmente, ela será cortada para caber no caso da proporção da imagem original não corresponder à proporção da caixa de conteúdo.*/
   border-radius: 4px;
