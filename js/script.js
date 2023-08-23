@@ -1,7 +1,7 @@
 const galeria = document.querySelectorAll(".bicicleta-imagens img");
 const galeriaContainer = document.querySelector(".bicicleta-imagens");
 
-function trocarImagem(event) {
+function trocarImagem(evesnt) {
   const img = event.currentTarget;
   const media = matchMedia("(min-width: 1000px").matches;
   if (media) {
@@ -14,3 +14,7 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

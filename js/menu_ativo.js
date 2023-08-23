@@ -23,3 +23,7 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 
 // OBS: Location é uma propriedade do objeto .windows //
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

@@ -18,3 +18,7 @@ function ativarProduto(parametro) {
 parametros.forEach(ativarProduto);
 
 // Como que eu mudo o atributo do elemento para checked(que vai ser o atributo que vai tornar o elemento de Bikcraft e Seguro checado)? elemento.checked = true //
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

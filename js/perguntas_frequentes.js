@@ -26,3 +26,7 @@ function eventosPerguntas(pergunta) {
 
 // 2 - para cada item da const perguntas, quero que isso(a function eventosPerguntas aconteça)
 perguntas.forEach(eventosPerguntas);
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
